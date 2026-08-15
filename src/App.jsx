@@ -309,4 +309,4 @@ export default function App() {
       <ExpectedVsActualChart curve={curve} />
     </div>
   );
-}
+};
