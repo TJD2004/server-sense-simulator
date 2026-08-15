@@ -2,6 +2,8 @@
 
 > **SolarSense Simulator UI** is a standalone, cyberpunk-themed **Solar Twin Control Room & Digital Twin Game Interface**. It empowers operators and developers to manipulate weather physics, environmental variables, and solar array parameters in real-time.
 
+### 🌐 Live Demo: [https://server-sense-simulator.vercel.app](https://server-sense-simulator.vercel.app)
+
 ---
 
 ## ✨ Features & Visual Stage
