@@ -11,7 +11,7 @@ import LiveTelemetryGrid from "./components/LiveTelemetryGrid.jsx";
 import ExpectedVsActualChart from "./components/ExpectedVsActualChart.jsx";
 import AIDetectiveAlert from "./components/AIDetectiveAlert.jsx";
 
-const BACKEND_URL = import.meta.env?.VITE_BACKEND_URL || "http://localhost:4000";
+const BACKEND_URL = import.meta.env?.VITE_BACKEND_URL;
 
 export default function App() {
   // Simulator State from Backend
