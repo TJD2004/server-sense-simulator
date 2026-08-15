@@ -113,9 +113,10 @@ export default function App() {
       scenarioId = "cloudy";
     } else if (weatherId === "rainy") {
       presetOverrides = { ...presetOverrides, cloudCoverage: 90, irradiance: 150, temp: 20 };
-      scenarioId = "cloudy";
+      scenarioId = "rainy";
     } else if (weatherId === "heatwave") {
       presetOverrides = { ...presetOverrides, cloudCoverage: 5, irradiance: 1100, temp: 45 };
+      scenarioId = "heatwave";
     }
 
     setParams((prev) => {
@@ -152,11 +153,11 @@ export default function App() {
         break;
       case "heat_wave":
         eventParams = { weather: "heatwave", temp: 45, cloudCoverage: 10, irradiance: 1050 };
-        scenarioId = "normal";
+        scenarioId = "heatwave";
         break;
       case "rain":
         eventParams = { weather: "rainy", cloudCoverage: 90, irradiance: 150, temp: 20 };
-        scenarioId = "cloudy";
+        scenarioId = "rainy";
         break;
       case "inverter_failure":
         scenarioId = "inverter";
